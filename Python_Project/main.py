@@ -4,7 +4,7 @@ from student_manager.utils import input_int, input_str
 def main_menu():
     sm=StudentManager()
     while True:
-        print("\n--- Student Result Management ---")
+        print("\n--- Student Result Management System ---")
         print("1.Add student")
         print("2.View all students")
         print("3.Search student")
@@ -43,7 +43,7 @@ def main_menu():
             if not student:
                 print("student not found.") 
                 continue
-            print("Enter new marks (leave blank to keep current):") 
+            print("Enter new marks (leave blank space to keep current):") 
             new_marks=[]
             for i in range(1,6):
                 val=input(f"Subject{i}[{student[f'subject{i}']}]:").strip()  
@@ -82,3 +82,4 @@ def main_menu():
             print("Invalid choice.")   
 if __name__=="__main__" :
     main_menu()                                  
+
