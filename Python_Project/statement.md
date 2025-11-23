@@ -12,7 +12,7 @@ It ensures that all data stays organized, easy to access, and safely stored.
 -This system works through a simple menu on the screen .
 -It stores all student data in a CSV files so the information is saved permanently.
 -The user can add,search,update,view and delete student records.
--The system automatically calculates total marks,percentage and grade.
+-The system automatically calculates total marks,percentage, grade and shows topper.
 -This makes result management easier,faster, and more accurate
 
 ##Target users
@@ -33,5 +33,6 @@ It ensures that all data stays organized, easy to access, and safely stored.
 -Shows Topper:
 Prints a neatly formatted topper report.
 -Data stored safely in CSV format.    
+
 
 
