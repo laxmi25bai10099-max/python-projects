@@ -27,4 +27,8 @@ You can add new students, view all records, update marks, search for specific st
 ##Run
 1.Open terminal in project folder
 2.Run:
+--Type: python main.py
+The main menu will appear with all available options. choose accordingly.
+
+
 
